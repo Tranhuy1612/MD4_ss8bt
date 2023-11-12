@@ -141,7 +141,7 @@ public class ProductServlet extends HttpServlet {
         String name = request.getParameter("name");
         String priceString = request.getParameter("price");
         String description = request.getParameter("description");
-        String manufacturer = request.getParameter("manufacturer");
+        String manufacturer = request.getParameter("producer");
 
         try {
             double price = Double.parseDouble(priceString);
@@ -163,7 +163,7 @@ public class ProductServlet extends HttpServlet {
         String name = request.getParameter("name");
         String priceString = request.getParameter("price");
         String description = request.getParameter("description");
-        String manufacturer = request.getParameter("manufacturer");
+        String manufacturer = request.getParameter("producer");
 
         try {
             int productId = Integer.parseInt(idString);
